@@ -2,6 +2,8 @@
 
 class easy_unsubscribe extends rcube_plugin
 {	
+	public $version = '2.9.0';
+
 	private $message_headers_done = false;
 	private $unsubscribe_img;
 
